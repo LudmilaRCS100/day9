@@ -9,15 +9,28 @@ namespace day9
     class Test
     {
         public int skaitlis;
-        public int Saskaitisana(int a, int b)
+
+        private int Privatais1;
+
+        public int Get()
         {
-            Izvade();
-            return a + b;
+            
+            return Privatais1;
         }
 
-        private void Izvade()
+        private void Sent (int value)
         {
-            Console.WriteLine("tests!");
+            if (value != 0)
+            {
+                Privatais1 = value;
+            }
+            else
+            {
+                Privatais1 = 1;
+            }
+
+
+            
         }
         
 

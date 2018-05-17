@@ -12,7 +12,7 @@ namespace day9
         {
             Test TestaObjekts = new Test();
             //masina ford = new Test();
-            int rezultats = TestaObjekts.Saskaitisana(3, 7);
+            //int rezultats = TestaObjekts.Saskaitisana(3, 7);//
             Test TestaObjekts2 = new Test();
 
             TestaObjekts.skaitlis = 3;
@@ -20,7 +20,7 @@ namespace day9
 
             Console.WriteLine("Izvade no TestaObjekta: " + TestaObjekts.skaitlis);
             Console.WriteLine("Izvade no TestaObjekta2: " + TestaObjekts2.skaitlis);
-            Console.WriteLine("Izvade no klases: " + rezultats);
+            //Console.WriteLine("Izvade no klases: " + rezultats);//
             Console.ReadLine();
 
 
